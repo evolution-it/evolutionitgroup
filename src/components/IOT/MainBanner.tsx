@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import bannerImg from "/public/images/iot-banner-image/iot-main-img1.png";
+import bannerImg from "/public/images/evolution-banner.png";
 import iotShape1 from "/public/images/iot-banner-image/iot-shape1.png";
 
 const MainBanner = () => {
@@ -13,22 +13,13 @@ const MainBanner = () => {
       <div className="iot-main-banner">
         <div className="container">
           <div className="iot-banner-content">
-            <span
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="500"
-              data-aos-once="true"
-            >
-              Internet of Things
-            </span>
-
             <h2
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="500"
               data-aos-once="true"
             >
-              We get it! IoT growth is happening
+              Evolved AI Solutions
             </h2>
 
             <p
@@ -37,11 +28,8 @@ const MainBanner = () => {
               data-aos-duration="500"
               data-aos-once="true"
             >
-              At this point, it may seem like overkill to point out the
-              continued growth bound to happen in the Internet of Things space
-              for the years to come and how it will create new opportunities for
-              companies, both established and new, from a hardware and software
-              perspective.
+              Leverage AI driven analytics to gain actionable insights from your
+              data. Make informed decisions faster than ever before.
             </p>
 
             <Link
@@ -51,7 +39,6 @@ const MainBanner = () => {
               data-aos-delay="400"
               data-aos-duration="500"
               data-aos-once="true"
-              
             >
               Get Started
             </Link>
@@ -62,8 +49,8 @@ const MainBanner = () => {
               src={bannerImg}
               className="animate__animated animate__fadeInUp animate__delay-0.8s"
               alt="image"
-              width={837}
-              height={447}
+              width={840}
+              height={445}
             />
 
             <Image
