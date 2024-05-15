@@ -32,8 +32,8 @@ const ContactForm: React.FC = () => {
     <>
       <div className="contact-area ptb-80">
         <div className="container">
-          <div className="section-title mb-0 pt-3">
-            <h2>Get In Touch With Us</h2>
+          <div className="section-title mb-0">
+            <h2 className="pt-5">Get In Touch With Us</h2>
             <div className="bar"></div>
           </div>
 
