@@ -126,15 +126,6 @@ const Footer = () => {
         </div>
 
         <Image src={map} className="map" alt="map" width={910} height={443} />
-
-        {/* Shape Images */}
-        <div className="shape1">
-          <Image src={shape1} alt="shape" width={202} height={202} />
-        </div>
-
-        <div className="shape8 rotateme">
-          <Image src={shape2} alt="shape" width={22} height={22} />
-        </div>
       </footer>
     </>
   );
