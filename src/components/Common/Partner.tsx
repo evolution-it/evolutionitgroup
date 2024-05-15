@@ -9,12 +9,12 @@ const Partner = () => {
       <div className="ready-to-talk">
         <div className="container">
           <h3>Ready to talk?</h3>
-          <p>Our team is here to answer your question about StartP</p>
+          <p>Our team is here to answer your question about Evolution IT Group</p>
 
           <Link href="/contact" className="btn btn-primary">
             Contact Us
           </Link>
-          
+
         </div>
       </div>
     </>
