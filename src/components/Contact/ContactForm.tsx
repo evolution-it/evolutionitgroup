@@ -13,7 +13,7 @@ const ContactForm: React.FC = () => {
     number: "",
     subject: "",
     message: "",
-    agreeTerms: false,
+    agreeTerms: true,
   });
 
   const handleChange = (
@@ -21,13 +21,6 @@ const ContactForm: React.FC = () => {
   ) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
-  };
-
-  const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData((prevData) => ({
-      ...prevData,
-      [e.target.name]: e.target.checked,
-    }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -122,31 +115,6 @@ const ContactForm: React.FC = () => {
                         onChange={handleChange}
                         required
                       />
-                    </div>
-
-                    <div className="form-check">
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        name="agreeTerms"
-                        checked={formData.agreeTerms}
-                        onChange={handleCheckboxChange}
-                        id="flexCheckDefault"
-                      />
-                      <label
-                        className="form-check-label"
-                        htmlFor="flexCheckDefault"
-                      >
-                        By checking this, you agree to our{" "}
-                        <Link href="/terms-conditions" >
-                          Terms
-                        </Link>{" "}
-                        and{" "}
-                        <Link href="/privacy-policy" >
-                          Privacy policy
-                        </Link>
-                        .
-                      </label>
                     </div>
                   </div>
 
