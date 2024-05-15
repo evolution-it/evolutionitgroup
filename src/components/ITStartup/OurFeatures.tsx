@@ -13,15 +13,60 @@ const OurFeatures = () => {
             <h2>About Our Services</h2>
             <div className="bar"></div>
             <p>
-              At Evolution IT, we believe in harnessing the power of technology
+              At Evolution IT, we believe in harnessing the power of AI technology
               to transform businesses and enhance efficiency. Our team of
               experts is dedicated to delivering tailored solutions that address
               your unique challenges. Explore our comprehensive suite of
-              services below
+              services.
             </p>
           </div>
 
           <div className="row">
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <div className="single-features">
+                <div className="icon">
+                  <Icon.Settings />
+                </div>
+                <h3>
+                  <Link href="/features/feature-details/">AI Operations</Link>
+                </h3>
+                <p>
+                  Our AI Operations solutions seamlessly integrate artificial
+                  intelligence into your existing workflows, optimizing
+                  efficiency, reducing costs, and enhancing decision-making.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <div className="single-features">
+                <div className="icon">
+                  <Icon.Settings />
+                </div>
+                <h3>
+                  <Link href="/features/feature-details/">Responsible AI</Link>
+                </h3>
+                <p>
+                  Harness the potential of artificial intelligence while
+                  maintaining ethical standards. Our Responsible AI solutions
+                  combine cutting-edge technology with a commitment to fairness,
+                  transparency, and accountability.
+                </p>
+              </div>
+            </div>
+
             <div
               className="col-lg-6 col-md-6"
               data-aos="fade-up"
@@ -49,6 +94,30 @@ const OurFeatures = () => {
             <div
               className="col-lg-6 col-md-6"
               data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <div className="single-features">
+                <div className="icon bg-eb6b3d">
+                  <Icon.Bell />
+                </div>
+                <h3>
+                  <Link href="/features/feature-details/">
+                    Anomaly Detection
+                  </Link>
+                </h3>
+                <p>
+                  Early detection is the key to preventing critical issues. Our
+                  anomaly detection algorithms analyze data patterns, alerting
+                  you to deviations and potential risks.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-6 col-md-6"
+              data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="500"
               data-aos-once="true"
@@ -64,30 +133,6 @@ const OurFeatures = () => {
                   Our Telephone AI services help you maintain exceptional call
                   quality, improve customer interactions, and optimize call
                   center operations.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-duration="500"
-              data-aos-once="true"
-            >
-              <div className="single-features">
-                <div className="icon bg-c679e3">
-                  <Icon.Grid />
-                </div>
-                <h3>
-                  <Link href="/features/feature-details/">
-                    Agent Development
-                  </Link>
-                </h3>
-                <p>
-                  Our AI helps develop comprehensive training and development
-                  programs to empower your agents with the skills and knowledge
-                  needed to excel.
                 </p>
               </div>
             </div>
@@ -119,23 +164,23 @@ const OurFeatures = () => {
             <div
               className="col-lg-6 col-md-6"
               data-aos="fade-up"
-              data-aos-delay="500"
+              data-aos-delay="300"
               data-aos-duration="500"
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-eb6b3d">
-                  <Icon.Box />
+                <div className="icon bg-c679e3">
+                  <Icon.Grid />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">
-                    Customs Solutions
+                    Agent Development
                   </Link>
                 </h3>
                 <p>
-                  Navigating complex customs regulations? Look no further. We
-                  offers tailored customs AI solutions to streamline processes,
-                  reduce delays, and ensure compliance.
+                  Our AI helps develop comprehensive training and development
+                  programs to empower your agents with the skills and knowledge
+                  needed to excel.
                 </p>
               </div>
             </div>
@@ -207,29 +252,6 @@ const OurFeatures = () => {
                   From chatbots to virtual assistants, our AI bots are versatile
                   problem-solvers. Whether it’s customer support, data analysis,
                   or process automation, we’ve got the bot for you.
-                </p>
-              </div>
-            </div>
-            <div
-              className="col-lg-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-duration="500"
-              data-aos-once="true"
-            >
-              <div className="single-features">
-                <div className="icon bg-eb6b3d">
-                  <Icon.Bell />
-                </div>
-                <h3>
-                  <Link href="/features/feature-details/">
-                    Anomaly Detection
-                  </Link>
-                </h3>
-                <p>
-                  Early detection is the key to preventing critical issues. Our
-                  anomaly detection algorithms analyze data patterns, alerting
-                  you to deviations and potential risks.
                 </p>
               </div>
             </div>

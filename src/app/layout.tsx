@@ -30,8 +30,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "StartP - React Next.js IT Startup & Digital Agency Template",
-  description: "React Next.js IT Startup & Digital Agency Template",
+  title: "Evolution IT Group",
+  description: "Custom AI Solutions",
 };
 
 export default function RootLayout({

@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
   useEffect(() => {
     let elementId = document.getElementById("header");
     document.addEventListener("scroll", () => {
-      if (window.scrollY > 170) {
+      if (window.scrollY > 120) {
         elementId?.classList.add("is-sticky");
       } else {
         elementId?.classList.remove("is-sticky");
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
-                <Image src={logo} alt="logo" width={110} height={36} />
+                <Image src={logo} alt="logo" width={315} height={40} />
               </Link>
 
               <button
