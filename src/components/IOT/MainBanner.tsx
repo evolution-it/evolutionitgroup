@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import bannerImg from "/public/images/evolution-banner.png";
-import iotShape1 from "/public/images/iot-banner-image/iot-shape1.png";
+import iotShape1 from "/public/images/iot-shape1.png";
 
 const MainBanner = () => {
   return (
