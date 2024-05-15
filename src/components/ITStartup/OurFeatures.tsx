@@ -154,9 +154,9 @@ const OurFeatures = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our call center AI solutions cover it all. From omnichannel
-                  support to intelligent routing, we’ve got your call center
-                  needs covered.
+                  {`Our call center AI solutions cover it all. From omnichannel
+                  support to intelligent routing, we've got your call center
+                  needs covered.`}
                 </p>
               </div>
             </div>

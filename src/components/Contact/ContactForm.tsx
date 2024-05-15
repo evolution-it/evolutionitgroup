@@ -36,7 +36,7 @@ const ContactForm: React.FC = () => {
           <div className="section-title">
             <h2>Get In Touch With Us</h2>
             <div className="bar"></div>
-            <p>Anything On your Mind. We’ll Be Glad To Assist You!</p>
+            <p>{`Anything On your Mind. We'll Be Glad To Assist You!`}</p>
           </div>
 
           <div className="row align-items-center">

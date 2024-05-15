@@ -34,8 +34,8 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  Don't miss out on the AI revolution. Contact us now to explore
-                  how AI Operations can transform your business.
+                  {`Don't miss out on the AI revolution. Contact us now to explore
+                  how AI Operations can transform your business.`}
                 </p>
               </div>
             </div>
