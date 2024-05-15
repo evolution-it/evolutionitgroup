@@ -14,10 +14,7 @@ const Partner = () => {
           <Link href="/contact" className="btn btn-primary">
             Contact Us
           </Link>
-
-          <span>
-            <Link href="#">Or, get started now with a free trial</Link>
-          </span>
+          
         </div>
       </div>
     </>
