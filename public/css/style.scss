@@ -88,12 +88,12 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-$light-green-color: #44ce6f;
+$light-green-color: #04597F;
 $white-color: #ffffff;
 $black-color: #0e314c;
 $navlink-color: #4a6f8a;
 $paragraph-color: #6084a4;
-$purple-color: #c679e3;
+$purple-color: #6FCEEF;
 $bg-color: #f7fafd;
 $bg-color2: #f9f6f6;
 $hosting-main-color: #032b8d;
@@ -1246,7 +1246,7 @@ Boxes CSS
             background: rgba(247, 138, 203, .3);
         }
     }
-    &.bg-c679e3 {
+    &.bg-6FCEEF {
         border-color: #edc3fc;
 
         .icon {
@@ -1282,7 +1282,7 @@ Boxes CSS
                 color: #f78acb;
             }
         }
-        &.bg-c679e3 {
+        &.bg-6FCEEF {
             .icon {
                 color: $purple-color;
             }
@@ -1729,7 +1729,7 @@ Services CSS
         color: $light-green-color;
         transition: $transition;
 
-        &.bg-c679e3 {
+        &.bg-6FCEEF {
             color: $purple-color;
             background: #edc3fc;
         }
@@ -1763,7 +1763,7 @@ Services CSS
             background: $light-green-color;
             color: $white-color;
 
-            &.bg-c679e3 {
+            &.bg-6FCEEF {
                 background: $purple-color;
             }
             &.bg-eb6b3d {
@@ -2012,7 +2012,7 @@ Features CSS
         top: 30px;
         transition: $transition;
 
-        &.bg-c679e3 {
+        &.bg-6FCEEF {
             color: $purple-color;
             background: #edc3fc;
         }
@@ -2029,7 +2029,7 @@ Features CSS
             background: $light-green-color;
             color: $white-color;
 
-            &.bg-c679e3 {
+            &.bg-6FCEEF {
                 background: $purple-color;
             }
             &.bg-eb6b3d {
@@ -2070,7 +2070,7 @@ Features CSS
         color: $light-green-color;
         transition: $transition;
 
-        &.bg-c679e3 {
+        &.bg-6FCEEF {
             color: $purple-color;
             background: #edc3fc;
         }
@@ -2104,7 +2104,7 @@ Features CSS
             background: $light-green-color;
             color: $white-color;
 
-            &.bg-c679e3 {
+            &.bg-6FCEEF {
                 background: $purple-color;
             }
             &.bg-eb6b3d {
@@ -3412,8 +3412,8 @@ Ready To Talk CSS
     text-align: center;
     position: relative;
     padding: {
-        top: 80px;
-        bottom: 160px;
+        top: 50px;
+        bottom: 50px;
     }
     background: $gradient-color;
 

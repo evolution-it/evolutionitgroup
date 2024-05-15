@@ -30,8 +30,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon">
-                  <Icon.Settings />
+                <div className="icon bg=04597F">
+                  <Icon.Crosshair />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">AI Operations</Link>
@@ -52,8 +52,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon">
-                  <Icon.Settings />
+                <div className="icon bg=04597F">
+                  <Icon.Shield />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">Responsible AI</Link>
@@ -75,8 +75,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon">
-                  <Icon.Settings />
+                <div className="icon bg=04597F">
+                  <Icon.AlertOctagon />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">
@@ -99,7 +99,7 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-eb6b3d">
+                <div className="icon bg=04597F">
                   <Icon.Bell />
                 </div>
                 <h3>
@@ -123,8 +123,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon">
-                  <Icon.Mail />
+                <div className="icon bg=04597F">
+                  <Icon.PhoneCall />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">Telephone QA</Link>
@@ -145,8 +145,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-c679e3">
-                  <Icon.Info />
+                <div className="icon bg=04597F">
+                  <Icon.Cpu />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">
@@ -169,7 +169,7 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-c679e3">
+                <div className="icon bg=04597F">
                   <Icon.Grid />
                 </div>
                 <h3>
@@ -193,8 +193,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-eb6b3d">
-                  <Icon.Bell />
+                <div className="icon bg=04597F">
+                  <Icon.Heart />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">
@@ -208,6 +208,7 @@ const OurFeatures = () => {
                 </p>
               </div>
             </div>
+
             <div
               className="col-lg-6 col-md-6"
               data-aos="fade-up"
@@ -216,8 +217,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-eb6b3d">
-                  <Icon.Bell />
+                <div className="icon bg=04597F">
+                  <Icon.Globe />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">
@@ -232,6 +233,7 @@ const OurFeatures = () => {
                 </p>
               </div>
             </div>
+
             <div
               className="col-lg-6 col-md-6"
               data-aos="fade-up"
@@ -240,8 +242,8 @@ const OurFeatures = () => {
               data-aos-once="true"
             >
               <div className="single-features">
-                <div className="icon bg-eb6b3d">
-                  <Icon.Bell />
+                <div className="icon bg=04597F">
+                  <Icon.Terminal />
                 </div>
                 <h3>
                   <Link href="/features/feature-details/">
