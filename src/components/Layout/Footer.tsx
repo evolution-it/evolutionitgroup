@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="logo">
                   <Link href="/">
-                    <Image src={logo} alt="logo" width={315} height={40} />
+                    <Image src={logo} alt="logo" width={157} height={20} />
                   </Link>
                 </div>
                 <p>
