@@ -59,56 +59,14 @@ const Footer = () => {
                   <li>
                     <Icon.Mail />
                     Email:{" "}
-                    <a href="mailto:evolution.technologies.info@gmail.com">
-                      evolution.technologies.info@gmail.com
+                    <a href="mailto:info@evolutionitgroup.com">
+                    info@evolutionitgroup.com
                     </a>
                   </li>
 
                   <li>
                     <Icon.PhoneCall />
                     Phone: <a href="tel:9542189862"> (954) 218-9862</a>
-                  </li>
-                </ul>
-
-                <ul className="social-links">
-                  <li>
-                    <a
-                      href="https://www.facebook.com/"
-                      className="facebook"
-                      target="_blank"
-                    >
-                      <Icon.Facebook />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://www.twitter.com/"
-                      className="twitter"
-                      target="_blank"
-                    >
-                      <Icon.Twitter />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://www.instagramcom/"
-                      className="instagram"
-                      target="_blank"
-                    >
-                      <Icon.Instagram />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/"
-                      className="linkedin"
-                      target="_blank"
-                    >
-                      <Icon.Linkedin />
-                    </a>
                   </li>
                 </ul>
               </div>
