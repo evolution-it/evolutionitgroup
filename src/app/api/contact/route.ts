@@ -20,8 +20,8 @@ export async function POST(req: Request) {
       ${form.name}<br>
       <a href="mailto:${form.email}">${form.email}</a><br>
       <a href="tel:${form.number}">${form.number}</a><br></div>
-    <div style="padding-bottom: 16px"><strong>Subject: ${form.subject}</strong></div>
-    <div style="padding-bottom: 16px"><strong>Message:</strong> >${form.message}</div>
+    <div style="padding-bottom: 16px"><strong>Subject:</strong> ${form.subject}</div>
+    <div style="padding-bottom: 16px"><strong>Message:</strong> ${form.message}</div>
   `;
 
   const memberEmail: MailDataRequired = {
