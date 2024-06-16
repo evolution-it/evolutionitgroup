@@ -219,12 +219,12 @@ textarea.form-control {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #ffffff;
-  background-color: #04597F;
+  background-color: #999999;
   box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
   opacity: 1;
 }
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary:disabled:hover, .btn-primary:disabled:focus {
-  background: #0e314c;
+  background: #999999;
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
 
