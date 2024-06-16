@@ -5,9 +5,7 @@ const key = process.env.SENDGRID_API_KEY || "";
 sendgrid.setApiKey(key);
 
 export async function POST(req: Request) {
-  const form: any = await req.json();;
-
-  console.log("form: ", form);
+  const form: any = await req.json();
 
   const responeHtml = `
     <div style="padding-bottom: 16px; padding-top: 16px"><strong>RE: ${form.subject}</strong></div>
@@ -41,7 +39,6 @@ export async function POST(req: Request) {
     await sendgrid.send(memberEmail);
     await sendgrid.send(notificationEmail);
   } catch (error: any) {
-    console.log(error);
     return NextResponse.json({ error: true, message: "error" });
   }
 

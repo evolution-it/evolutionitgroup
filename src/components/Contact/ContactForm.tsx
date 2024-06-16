@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 import validator from "validator";
 
 import contactImg from "/public/images/evolution-form-bg.png";
@@ -102,7 +102,11 @@ const ContactForm: React.FC = () => {
               <div className="col-lg-6 col-md-12 text-center">
                 <h2 className="pt-5">Thanks for getting in touch.</h2>
                 <div>We&apos;ll get back to you soon.</div>
-                <div><Link className="btn btn-primary mt-3" href="/">Back to Home</Link></div>
+                <div>
+                  <Link className="btn btn-primary mt-3" href="/">
+                    Back to Home
+                  </Link>
+                </div>
               </div>
             ) : (
               <div className="col-lg-6 col-md-12">
