@@ -16,7 +16,10 @@ export async function POST(req: Request) {
 
   const notification = `
     <div style="padding-bottom: 16px; padding-top: 16px"><strong>New Contact:</strong></div>
-    <div style="padding-bottom: 16px">${form.name}< /br><a href="#"${form.email}</a>< /br><a href="#"${form.number}</a>< /br></div>
+    <div style="padding-bottom: 16px">
+      ${form.name}<br>
+      <a href="mailto:${form.email}">${form.email}</a><br>
+      <a href="tel:${form.number}">${form.number}</a><br></div>
     <div style="padding-bottom: 16px"><strong>Subject: ${form.subject}</strong></div>
     <div style="padding-bottom: 16px"><strong>Message:</strong> >${form.message}</div>
   `;
