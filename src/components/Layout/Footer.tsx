@@ -66,7 +66,7 @@ const Footer = () => {
 
                   <li>
                     <Icon.PhoneCall />
-                    Phone: <a href="tel:9542189862"> (954) 218-9862</a>
+                    Phone: <a href="tel:9549993015"> (954) 999-3015</a>
                   </li>
                 </ul>
               </div>
